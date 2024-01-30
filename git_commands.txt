@@ -1,1 +1,4 @@
+20 git commands and their functions
+
+1. git init - For initialising a local git repository on a local machine.
 
