@@ -1,4 +1,22 @@
 20 git commands and their functions
 
 1. git init - For initialising a local git repository on a local machine.
-
+2. git clone [url] - For retrieving an entire repository from a hosted location via URL.
+3. git log - To show all commits in the current branch's history.
+4. git status - For viewing full status.
+5. git commit - For committing the staged files by opening the default editor to type a long message.
+6. git commit -m 'message' - For committing the staged files with a one-line message.
+7. git add . - Stages the current directory and all its content.
+8. git checkout - It switch to another branch and check it out into your working directory.
+9. git push - It transmit local branch commits to the remote repository branch.
+10. git pull - For fetching and merging any commits from the tracking remote branch.
+11. git branch - For showing list of branches.
+12. git rm -r [file-name.txt] - For Removing a file (or folder).
+13. git merge [source branch] [target branch] - To merge a branch into a target branch.
+14. git diff - It shows diff of what is changed but not staged.
+15. git reset [file] - To unstage a file while retaining the changes in working directory.
+16. git stash - It save modified and staged changes.
+17. git rebase [branch] - For applying any commits of current branch ahead of specified one.
+18. git config --global user.name '[firstname lastname]' - For configuring user information(user name) used across all local repositories.
+19. git config --global user.email '[valid-email]' - For configuring user information(user email) used across all local repositories.
+20. git branch --merged - It shows the merged branches.
