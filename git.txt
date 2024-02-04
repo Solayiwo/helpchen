@@ -1,1 +1,12 @@
+# How to install git on a local machine
+
+## Step One: 
+Download git by choosing the right one for your own preferred operating system: Mac OS, Linux or windows. After the file is downloaded, install it in the system. 
+## Step 2
+Once installed, select Launch the Git Bash, then click on finish. The Git Bash is now launched, then check the version by typing git --version on the git bash command line.
+## Step Three: 
+Now tell git you exist by typing the following commands on the bash command line. This step purpose is to link the Git to a Github Account.
+git config --global user.name 'My_Name'
+git config --global user.email 'myEmail@wherever.com'
+git config --global color.ui 'auto'
 
