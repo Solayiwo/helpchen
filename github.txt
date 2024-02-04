@@ -16,16 +16,9 @@ How to create a GitHub account
 
 
 Step on how clone repos to the local machine
-
 1.	On GitHub.com, navigate to the main page of the repository.
-2.	If it is an empty repository, to clone your repository using the command line using HTTPS, under "Quick setup", click. 
-To clone the repository using an SSH key, including a certificate issued by your organization's SSH 
-certificate authority, click SSH, then click. Then skip step three and continue from step four.
-But if it is not an empty repository, above the list of files, click Code. And continue from step three.
-3.	Copy the URL for the repository.
-	To clone the repository using HTTPS, under "HTTPS", click.
-	To clone the repository using an SSH key, including a certificate issued by your organization's SSH 
-  certificate authority, click SSH, then click.
+2.	If it is an empty repository, to clone your repository using the command line using HTTPS, under "Quick setup", click. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click. Then skip step three and continue from step four. But if it is not an empty repository, above the list of files, click Code. And continue from step three.
+3.	Copy the URL for the repository. To clone the repository using HTTPS, under "HTTPS", click. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click.
 4.	Open Git Bash.
 5.	Change the current working directory to the location where you want the cloned directory.
 6.	Type git clone, and then paste the URL you copied earlier.
